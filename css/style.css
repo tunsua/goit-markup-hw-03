@@ -32,6 +32,9 @@ ul {
   letter-spacing: 0.02em;
   color: var(--color-title);
 }
+.blue {
+  color: var(--color-hover);
+}
 .link-nav:hover {
   color: var(--color-hover);
 }
