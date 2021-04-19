@@ -1,9 +1,14 @@
 :root {
-  --color-text: #757575;
+ --color-text: #757575;
   --color-hover: #2196f3;
   --color-title: #212121;
   --font: "Roboto", sans-serif;
   --background: #2f303a;
+  --background-2: #f5f4fa;
+  --background-team: white;
+  --border-bottom: #ececec;
+  --white: white;
+  --border: #eeeeee;
 }
 a {
   text-decoration: none;
@@ -12,7 +17,7 @@ ul {
   list-style: none;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--color-hover);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -31,6 +36,9 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-title);
+}
+.blue {
+  color: var(--color-hover);
 }
 .link-nav:hover {
   color: var(--color-hover);
@@ -53,7 +61,7 @@ ul {
 
 .main-title {
   font-family: var(--font);
-  color: white;
+  color: var(--white);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -65,7 +73,7 @@ ul {
 .butoon-order {
   background: var(--color-hover);
   font-family: var(--font);
-  color: white;
+  color: var(--white);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -133,10 +141,10 @@ ul {
   letter-spacing: 0.03em;
 }
 .background-2 {
-  background: #f5f4fa;
+  background: var(--background-2);
 }
 .background-team {
-  background: white;
+  background: var(--background-team);
 }
 .background-footer {
   background: var(--background);
@@ -148,11 +156,11 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: white;
+  color: var(--white);
 }
 
 .studio-white {
-  color: white;
+  color: var(--white);
 }
 .button-select {
   font-family: var(--font);
@@ -167,7 +175,7 @@ ul {
 }
 .button-select:hover {
   background: var(--color-hover);
-  color: white;
+  color: var(--white);
 }
 .name-project {
   font-family: var(--font);
